@@ -1,0 +1,4 @@
+name: season-9-5
+version: '${project.version}'
+main: com.bernardo.season95
+api-version: '1.20'
