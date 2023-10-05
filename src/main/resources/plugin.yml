@@ -6,4 +6,9 @@ commands:
   regras:
     description: Regras do server
     usage: /regras
-
+  twitch:
+    description: Twitch do Excambaw
+    usage: /twitch
+    aliases:
+      - live
+      - twitch

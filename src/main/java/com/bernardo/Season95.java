@@ -8,6 +8,7 @@ public final class Season95 extends JavaPlugin {
     @Override
     public void onEnable() {
         getCommand("regras").setExecutor(new TextCommands());
+        getCommand("twitch").setExecutor(new TextCommands());
     }
 
     @Override
