@@ -17,3 +17,8 @@ commands:
     usage: /youtube
     aliases:
       - yt
+  host:
+    description: Astral Host
+    usage: /host
+    aliases:
+      - astral

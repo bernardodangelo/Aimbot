@@ -37,6 +37,15 @@ public class TextCommands implements CommandExecutor {
             }
             return true;
         }
+        else if(cmd.getName().equalsIgnoreCase("host")){
+            if (sender instanceof Player) {
+                Player player = (Player) sender;
+                player.sendMessage(ChatColor.GRAY + "[" + ChatColor.LIGHT_PURPLE + ChatColor.BOLD + "SEASON 9.5" + ChatColor.GRAY + "] " + ChatColor.BLUE + "Temos uma parceria com a Astral Cloud, você pode adquirir Hospedagens de Servidor de Minecraft e de Gta San Andreas: " + ChatColor.AQUA + ChatColor.UNDERLINE + "discord.gg/hhQDqhBTTG");
+            } else {
+                sender.sendMessage(ChatColor.RED + "Este comando só pode ser executado por jogadores.");
+            }
+            return true;
+        }
         return false;
     }
 }
