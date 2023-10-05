@@ -12,3 +12,8 @@ commands:
     aliases:
       - live
       - twitch
+  youtube:
+    description: Youtube do Excambaw
+    usage: /youtube
+    aliases:
+      - yt

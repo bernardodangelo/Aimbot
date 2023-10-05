@@ -9,6 +9,7 @@ public final class Season95 extends JavaPlugin {
     public void onEnable() {
         getCommand("regras").setExecutor(new TextCommands());
         getCommand("twitch").setExecutor(new TextCommands());
+        getCommand("youtube").setExecutor(new TextCommands());
     }
 
     @Override

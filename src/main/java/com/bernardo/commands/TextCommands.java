@@ -28,6 +28,15 @@ public class TextCommands implements CommandExecutor {
             }
             return true;
         }
+        else if(cmd.getName().equalsIgnoreCase("youtube")){
+            if (sender instanceof Player) {
+                Player player = (Player) sender;
+                player.sendMessage(ChatColor.GRAY + "[" + ChatColor.LIGHT_PURPLE + ChatColor.BOLD + "SEASON 9.5" + ChatColor.GRAY + "] " + ChatColor.DARK_RED + "Youtube: " + ChatColor.AQUA + ChatColor.UNDERLINE + "youtube.com/@livesdoexcambaw");
+            } else {
+                sender.sendMessage(ChatColor.RED + "Este comando só pode ser executado por jogadores.");
+            }
+            return true;
+        }
         return false;
     }
 }
