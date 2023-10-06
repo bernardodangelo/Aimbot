@@ -22,3 +22,9 @@ commands:
     usage: /host
     aliases:
       - astral
+  loja:
+    description: Loja de Vips, Unbans e Cosméticos de Server
+    usage: /loja
+    aliases:
+      - vip
+      - vips
