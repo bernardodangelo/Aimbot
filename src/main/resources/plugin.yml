@@ -23,8 +23,9 @@ commands:
     aliases:
       - astral
   loja:
-    description: Loja de Vips, Unbans e Cosméticos de Server
+    description: Loja de Vips, Unbans e Cosméticos de server
     usage: /loja
     aliases:
       - vip
       - vips
+      - cosmeticos
