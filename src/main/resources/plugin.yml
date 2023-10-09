@@ -29,3 +29,9 @@ commands:
       - vip
       - vips
       - cosmeticos
+  terreno:
+    description: Tutorial de Proteção de Terreno
+    usage: /terreno
+    aliases:
+      - tutorialterreno
+      - tutorialclaim
