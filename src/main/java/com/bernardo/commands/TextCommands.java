@@ -49,7 +49,7 @@ public class TextCommands implements CommandExecutor {
         else if(cmd.getName().equalsIgnoreCase("loja")){
             if (sender instanceof Player) {
                 Player player = (Player) sender;
-                player.sendMessage(ChatColor.GRAY + "[" + ChatColor.LIGHT_PURPLE + ChatColor.BOLD + "SEASON 9.5" + ChatColor.GRAY + "] " + ChatColor.GOLD + "Adquira Vips, Cosméticos e Unbans na Loja: " + ChatColor.AQUA + ChatColor.UNDERLINE + "excambaw.craftingstore.net/");
+                player.sendMessage(ChatColor.GRAY + "[" + ChatColor.LIGHT_PURPLE + ChatColor.BOLD + "SEASON 9.5" + ChatColor.GRAY + "] " + ChatColor.GOLD + "Adquira Vips, Cosméticos e Unbans na Loja: " + ChatColor.AQUA + ChatColor.UNDERLINE + "excambaw.craftingstore.net");
             } else {
                 sender.sendMessage(ChatColor.RED + "Este comando só pode ser executado por jogadores.");
             }
@@ -58,7 +58,7 @@ public class TextCommands implements CommandExecutor {
         else if(cmd.getName().equalsIgnoreCase("terreno")){
             if (sender instanceof Player) {
                 Player player = (Player) sender;
-                player.sendMessage(ChatColor.GRAY + "[" + ChatColor.LIGHT_PURPLE + ChatColor.BOLD + "SEASON 9.5" + ChatColor.GRAY + "] " + ChatColor.GREEN + "Proteja o seu terreno utilizando um pá de ouro para ninguém roubar e quebrar sua construção, clique com o botão direito no chão segurando a pá de ouro para marcar seu terreno, tutorial completo em: " + ChatColor.AQUA + ChatColor.UNDERLINE + "excambaw.craftingstore.net/");
+                player.sendMessage(ChatColor.GRAY + "[" + ChatColor.LIGHT_PURPLE + ChatColor.BOLD + "SEASON 9.5" + ChatColor.GRAY + "] " + ChatColor.GREEN + "Proteja o seu terreno utilizando um pá de ouro para ninguém roubar e quebrar sua construção, clique com o botão direito no chão segurando a pá de ouro para marcar seu terreno, tutorial completo em: " + ChatColor.AQUA + ChatColor.UNDERLINE + "youtu.be/skhldWT3qc8");
             } else {
                 sender.sendMessage(ChatColor.RED + "Este comando só pode ser executado por jogadores.");
             }

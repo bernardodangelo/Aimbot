@@ -12,6 +12,7 @@ public final class Season95 extends JavaPlugin {
         getCommand("youtube").setExecutor(new TextCommands());
         getCommand("host").setExecutor(new TextCommands());
         getCommand("loja").setExecutor(new TextCommands());
+        getCommand("terreno").setExecutor(new TextCommands());
     }
 
     @Override

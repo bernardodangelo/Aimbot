@@ -22,3 +22,16 @@ commands:
     usage: /host
     aliases:
       - astral
+  loja:
+    description: Loja de Vips, Unbans e Cosméticos de server
+    usage: /loja
+    aliases:
+      - vip
+      - vips
+      - cosmeticos
+  terreno:
+    description: Tutorial de Proteção de Terreno
+    usage: /terreno
+    aliases:
+      - tutorialterreno
+      - tutorialclaim
