@@ -26,8 +26,6 @@ commands:
     description: Loja de Vips, Unbans e Cosméticos de server
     usage: /loja
     aliases:
-      - vip
-      - vips
       - cosmeticos
   terreno:
     description: Tutorial de Proteção de Terreno
@@ -35,3 +33,9 @@ commands:
     aliases:
       - tutorialterreno
       - tutorialclaim
+  tags:
+    description: Todas os Vips do Servidor
+    usage: /tags
+    aliases:
+      - vip
+      - vips

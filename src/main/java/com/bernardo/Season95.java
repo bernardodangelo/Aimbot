@@ -13,6 +13,7 @@ public final class Season95 extends JavaPlugin {
         getCommand("host").setExecutor(new TextCommands());
         getCommand("loja").setExecutor(new TextCommands());
         getCommand("terreno").setExecutor(new TextCommands());
+        getCommand("tags").setExecutor(new TextCommands());
     }
 
     @Override
