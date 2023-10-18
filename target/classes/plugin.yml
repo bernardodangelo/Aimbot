@@ -39,3 +39,8 @@ commands:
     aliases:
       - vip
       - vips
+  liveon:
+    description: Aviso de Live On
+    usage: /liveon
+    aliases:
+      - l
