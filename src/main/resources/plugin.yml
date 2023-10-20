@@ -42,5 +42,7 @@ commands:
   liveon:
     description: Aviso de Live On
     usage: /liveon
+    permission:
+      season-9-5.liveon
     aliases:
       - l
