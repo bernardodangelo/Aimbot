@@ -5,6 +5,7 @@ A private Minecraft plugin made for my Minecraft Server.
 ## Features 🛠
 
 - Custom commands.
+- Aliases (Dependency: [EssentialsX](https://github.com/EssentialsX/Essentials)).
 
 ## Contact 📞
 
