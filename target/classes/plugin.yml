@@ -46,3 +46,8 @@ commands:
       season-9-5.liveon
     aliases:
       - l
+  evento:
+    description: Server de Eventos
+    usage: /evento
+    aliases:
+      - eventos

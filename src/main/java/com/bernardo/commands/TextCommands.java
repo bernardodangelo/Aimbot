@@ -13,7 +13,7 @@ public class TextCommands implements CommandExecutor {
         if (cmd.getName().equalsIgnoreCase("regras")) {
             if (sender instanceof Player) {
                 Player player = (Player) sender;
-                player.sendMessage(ChatColor.GRAY + "[" + ChatColor.LIGHT_PURPLE + ChatColor.BOLD + "SEASON 9.5" + ChatColor.GRAY + "] " + ChatColor.DARK_RED + "Principais Regras: " + ChatColor.RED + "Proibido Griefing, Probido Roubar, Proibido Abusar de Bugs, Proibido Divulgação e Discurso de Ódio no Chat e PvP apenas se ambos jogadores concordarem");
+                player.sendMessage(ChatColor.GRAY + "[" + ChatColor.LIGHT_PURPLE + ChatColor.BOLD + "SEASON 9.5" + ChatColor.GRAY + "] " + ChatColor.DARK_RED + "Principais Regras: " + ChatColor.RED + "Proibido utilizar qualquer tipo de Cheat, Proibido Griefing, Probido Roubar, Proibido Abusar de Bugs, Proibido Divulgação e Discurso de Ódio no Chat e PvP apenas se ambos jogadores concordarem");
             } else {
                 sender.sendMessage(ChatColor.RED + "Este comando só pode ser executado por jogadores.");
             }
