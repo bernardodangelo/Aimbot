@@ -17,7 +17,6 @@ public final class Season95 extends JavaPlugin {
         Objects.requireNonNull(getCommand("terreno")).setExecutor(new TextCommands());
         Objects.requireNonNull(getCommand("tags")).setExecutor(new TextCommands());
         Objects.requireNonNull(getCommand("liveon")).setExecutor(new Aliases());
-        Objects.requireNonNull(getCommand("evento")).setExecutor(new Aliases());
     }
 
     @Override

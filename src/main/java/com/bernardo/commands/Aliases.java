@@ -16,11 +16,6 @@ public class Aliases implements CommandExecutor {
             String live = "broadcast &b&lLIVE ON &r- &dTWITCH.TV/EXCAMBAW";
             Bukkit.dispatchCommand(console, live);
         }
-        else if(cmd.getName().equalsIgnoreCase("evento")) {
-            ConsoleCommandSender console = Bukkit.getServer().getConsoleSender();
-            String evento = "server eventos";
-            Bukkit.dispatchCommand(console, evento);
-        }
         return true;
     }
 }
