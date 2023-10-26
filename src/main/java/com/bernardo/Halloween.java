@@ -20,7 +20,7 @@ public class Halloween implements Listener {
 
         Random random = new Random();
 
-        if (random.nextDouble() < 0.20) {
+        if (random.nextDouble() < 0.10) {
             if (entityType == EntityType.ZOMBIE || entityType == EntityType.SKELETON || entityType == EntityType.SPIDER || entityType == EntityType.CREEPER) {
                 Location deathLocation = entity.getLocation();
                 deathLocation.getWorld().strikeLightningEffect(deathLocation);
