@@ -34,9 +34,9 @@ commands:
       season-9-5.liveon
     aliases:
       - l
-  terreno:
+  tutorialterreno:
     description: Tutorial de Proteção de Terreno
-    usage: /terreno
+    usage: /tutorialterreno
     aliases:
       - terreno
   tutorialvip:
