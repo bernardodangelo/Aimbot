@@ -55,7 +55,7 @@ public class TextCommands implements CommandExecutor {
             }
             return true;
         }
-        else if(cmd.getName().equalsIgnoreCase("terreno")){
+        else if(cmd.getName().equalsIgnoreCase("tutorialterreno")){
             if (sender instanceof Player) {
                 Player player = (Player) sender;
                 player.sendMessage(ChatColor.GRAY + "[" + ChatColor.LIGHT_PURPLE + ChatColor.BOLD + "SEASON 9.5" + ChatColor.GRAY + "] " + ChatColor.GREEN + "Proteja o seu terreno utilizando um pá de ouro para ninguém roubar e quebrar sua construção, clique com o botão direito no chão segurando a pá de ouro para marcar seu terreno, tutorial completo em: " + ChatColor.AQUA + ChatColor.UNDERLINE + "youtu.be/skhldWT3qc8");
@@ -64,7 +64,7 @@ public class TextCommands implements CommandExecutor {
             }
             return true;
         }
-        else if(cmd.getName().equalsIgnoreCase("tags")){
+        else if(cmd.getName().equalsIgnoreCase("tutorialvip")){
             if (sender instanceof Player) {
                 Player player = (Player) sender;
                 player.sendMessage(ChatColor.GRAY + "[" + ChatColor.LIGHT_PURPLE + ChatColor.BOLD + "SEASON 9.5" + ChatColor.GRAY + "] " + ChatColor.LIGHT_PURPLE + "Conheça todos os VIPs do servidor e como ativá-los: " + ChatColor.AQUA + ChatColor.UNDERLINE + "youtu.be/etX90ir2UGc");

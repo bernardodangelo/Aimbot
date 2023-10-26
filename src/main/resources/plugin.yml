@@ -38,14 +38,14 @@ commands:
     description: Tutorial de Proteção de Terreno
     usage: /terreno
     aliases:
-      - tutorialterreno
-      - tutorialclaim
-  tags:
+      - terreno
+  tutorialvip:
     description: Todas os Vips do Servidor
-    usage: /tags
+    usage: /tutorialvips
     aliases:
-      - vip
       - vips
+      - vip
+      - tags
   tutorialloja:
     description: Tutorial de Economia
     usage: /tutorialloja

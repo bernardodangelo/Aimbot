@@ -34,18 +34,19 @@ commands:
       season-9-5.liveon
     aliases:
       - l
-  terreno:
+  tutorialterreno:
     description: Tutorial de Proteção de Terreno
-    usage: /terreno
+    usage: /tutorialterreno
     aliases:
-      - tutorialterreno
+      - terreno
       - tutorialclaim
-  tags:
+  tutorialvip:
     description: Todas os Vips do Servidor
-    usage: /tags
+    usage: /tutorialvips
     aliases:
-      - vip
       - vips
+      - vip
+      - tags
   tutorialloja:
     description: Tutorial de Economia
     usage: /tutorialloja
