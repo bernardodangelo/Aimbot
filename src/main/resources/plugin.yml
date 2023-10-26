@@ -4,7 +4,7 @@ main: com.bernardo.Season95
 api-version: '1.20'
 commands:
   regras:
-    description: Regras do server
+    description: Regras
     usage: /regras
   twitch:
     description: Twitch do Excambaw
@@ -23,7 +23,7 @@ commands:
     aliases:
       - astral
   loja:
-    description: Loja de Vips, Unbans e Cosméticos de server
+    description: Loja de Vips, Unbans e Cosméticos
     usage: /loja
     aliases:
       - cosmeticos
@@ -40,7 +40,7 @@ commands:
     aliases:
       - terreno
   tutorialvip:
-    description: Todas os Vips do Servidor
+    description: Tutorial dos Vips
     usage: /tutorialvips
     aliases:
       - vips
