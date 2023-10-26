@@ -27,6 +27,13 @@ commands:
     usage: /loja
     aliases:
       - cosmeticos
+  liveon:
+    description: Aviso de Live On
+    usage: /liveon
+    permission:
+      season-9-5.liveon
+    aliases:
+      - l
   terreno:
     description: Tutorial de Proteção de Terreno
     usage: /terreno
@@ -39,15 +46,6 @@ commands:
     aliases:
       - vip
       - vips
-  liveon:
-    description: Aviso de Live On
-    usage: /liveon
-    permission:
-      season-9-5.liveon
-    aliases:
-      - l
-  evento:
-    description: Server de Eventos
-    usage: /evento
-    aliases:
-      - eventos
+  tutorialloja:
+    description: Tutorial de Economia
+    usage: /tutorialloja

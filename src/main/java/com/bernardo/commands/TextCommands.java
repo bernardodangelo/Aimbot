@@ -73,6 +73,15 @@ public class TextCommands implements CommandExecutor {
             }
             return true;
         }
+        else if(cmd.getName().equalsIgnoreCase("tutorialloja")){
+            if (sender instanceof Player) {
+                Player player = (Player) sender;
+                player.sendMessage(ChatColor.GRAY + "[" + ChatColor.LIGHT_PURPLE + ChatColor.BOLD + "SEASON 9.5" + ChatColor.GRAY + "] " + ChatColor.YELLOW + "Como ganhar dinheiro, criar lojas e vender itens: " + ChatColor.AQUA + ChatColor.UNDERLINE + "youtu.be/DtzsKn92P24");
+            } else {
+                sender.sendMessage(ChatColor.RED + "Este comando só pode ser executado por jogadores.");
+            }
+            return true;
+        }
         return false;
     }
 }
