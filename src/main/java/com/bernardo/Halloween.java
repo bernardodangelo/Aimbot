@@ -27,11 +27,11 @@ public class Halloween implements Listener {
             }
         }
 
-        if (random.nextDouble() < 0.40) {
+        if (random.nextDouble() < 0.2) {
             event.getDrops().add(new ItemStack(Material.PUMPKIN_PIE, 1));
         }
 
-        if (random.nextDouble() < 0.10) {
+        if (random.nextDouble() < 0.05) {
             event.getDrops().add(new ItemStack(Material.CARVED_PUMPKIN, 1));
         }
 
