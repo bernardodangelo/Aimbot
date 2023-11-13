@@ -82,6 +82,16 @@ public class TextCommands implements CommandExecutor {
             }
             return true;
         }
+        else if(cmd.getName().equalsIgnoreCase("vipgratis")){
+            if (sender instanceof Player) {
+                Player player = (Player) sender;
+                player.sendMessage(ChatColor.GRAY + "[" + ChatColor.LIGHT_PURPLE + ChatColor.BOLD + "SEASON 9.5"
+                        + ChatColor.GRAY + "] " + ChatColor.GREEN + "Adquira um Vip grátis no server seguindo esse tutorial: " + ChatColor.AQUA + ChatColor.UNDERLINE + "youtu.be/o52sxxtdtQE");
+            } else {
+                sender.sendMessage(ChatColor.RED + "Este comando só pode ser executado por jogadores.");
+            }
+            return true;
+        }
         return false;
     }
 }
