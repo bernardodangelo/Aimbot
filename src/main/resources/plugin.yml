@@ -49,9 +49,6 @@ commands:
   tutorialloja:
     description: Tutorial de Economia
     usage: /tutorialloja
-  vipgratis:
-    description: Comando de Vip Grátis
-    usage: /vipgratis
   encantamentos:
     description: Encantamentos Customizados
     usage: /encantamentos

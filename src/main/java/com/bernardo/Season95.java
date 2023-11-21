@@ -17,7 +17,6 @@ public final class Season95 extends JavaPlugin {
     Objects.requireNonNull(getCommand("tutorialterreno")).setExecutor(new TextCommands());
     Objects.requireNonNull(getCommand("tutorialvip")).setExecutor(new TextCommands());
     Objects.requireNonNull(getCommand("tutorialloja")).setExecutor(new TextCommands());
-    Objects.requireNonNull(getCommand("vipgratis")).setExecutor(new TextCommands());
     Objects.requireNonNull(getCommand("encantamentos")).setExecutor(new TextCommands());
   }
 
