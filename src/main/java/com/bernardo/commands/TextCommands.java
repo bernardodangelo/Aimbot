@@ -198,7 +198,27 @@ public class TextCommands implements CommandExecutor {
         sender.sendMessage(ChatColor.RED + "Este comando só pode ser executado por jogadores.");
       }
       return true;
+    } else if (cmd.getName().equalsIgnoreCase("encantamentos")) {
+      if (sender instanceof Player) {
+        Player player = (Player) sender;
+        player.sendMessage(
+                ChatColor.GRAY + "[" + ChatColor.LIGHT_PURPLE +
+                        ChatColor.BOLD +
+                        "SEASON 9.5" +
+                        ChatColor.GRAY +
+                        "] " +
+                        ChatColor.DARK_PURPLE +
+                        "Todos os encantamentos customizados do server: " +
+                        ChatColor.AQUA +
+                        ChatColor.UNDERLINE +
+                        "youtu.be/ayVwM3D-6mg?si=fwEm9uohCaLIGnM3"
+        );
+      } else {
+        sender.sendMessage(ChatColor.RED + "Este comando só pode ser executado por jogadores.");
+      }
+      return true;
     }
+
     return false;
   }
 }
