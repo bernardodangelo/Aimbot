@@ -49,3 +49,6 @@ commands:
   tutorialloja:
     description: Tutorial de Economia
     usage: /tutorialloja
+  encantamentos:
+    description: Encantamentos Customizados
+    usage: /encantamentos

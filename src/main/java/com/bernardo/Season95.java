@@ -18,6 +18,9 @@ public final class Season95 extends JavaPlugin {
     Objects.requireNonNull(getCommand("tutorialvip")).setExecutor(new TextCommands());
     Objects.requireNonNull(getCommand("tutorialloja")).setExecutor(new TextCommands());
     Objects.requireNonNull(getCommand("encantamentos")).setExecutor(new TextCommands());
+
+    getServer().getPluginManager().registerEvents(new Christmas(), this);
+
   }
 
   @Override
