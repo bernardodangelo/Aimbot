@@ -19,7 +19,7 @@ public class Christmas implements Listener {
     @EventHandler
     public void onEntityDeath(EntityDeathEvent event){
 
-        if(random.nextDouble() < .08) {
+        if(random.nextDouble() < .2) {
             event.getDrops().add(new ItemStack(Material.COOKIE, 1));
         }
     }
