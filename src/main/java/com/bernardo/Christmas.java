@@ -30,12 +30,12 @@ public class Christmas implements Listener {
         if (event.getEntityType() == EntityType.ZOMBIE || event.getEntityType() == EntityType.SKELETON || event.getEntityType() == EntityType.WITHER_SKELETON) {
             LivingEntity mob = (LivingEntity) event.getEntity();
 
-            ItemStack redHelmet = new ItemStack(Material.LEATHER_HELMET, 1);
-            LeatherArmorMeta meta = (LeatherArmorMeta) redHelmet.getItemMeta();
+            ItemStack redChestplate = new ItemStack(Material.LEATHER_CHESTPLATE, 1);
+            LeatherArmorMeta meta = (LeatherArmorMeta) redChestplate.getItemMeta();
             meta.setColor(org.bukkit.Color.RED);
-            redHelmet.setItemMeta(meta);
+            redChestplate.setItemMeta(meta);
 
-            mob.getEquipment().setHelmet(redHelmet);
+            mob.getEquipment().setChestplate(redChestplate);
         }
     }
 
